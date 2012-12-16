@@ -1,0 +1,129 @@
+### Word Cloud For Technologies - words & weights
+
+### Core Strengths & <3
+100 Linux
+50 Networks
+40 Security
+40 WebApps
+20 Messaging
+30 Integration
+30 Automation
+40 vim
+30 Unix
+30 Scrum
+
+30 Windows
+
+
+### Languages
+100 Java
+100 Groovy
+50 SQL
+40 HTML
+25 CSS
+30 javascript
+35 C
+25 C++
+10 bash
+10 XML
+20 LaTeX
+30 UML
+
+
+### Languages - Java and friends
+25 Eclipse
+25 IntelliJ
+
+80 gradle
+45 Maven
+10 Ant
+
+20 Artifactory
+20 Hudson
+
+90 grails
+60 Spring
+50 Hibernate
+35 Swing
+25 JAXB
+5 ehcache
+
+25 jsp
+25 gsp
+25 jstl
+40 JMS
+10 JBoss
+15 Tomcat
+10 tiles
+10 struts
+
+### Web Infrastructure
+30 ApacheHttpd
+10 mod_security
+10 mod_jk
+
+### Software Engineering 
+50 OOA/D
+30 DomainDrivenDesign
+20 Agile
+15 XP
+20 ContinuousIntegration
+
+25 UnitTesting
+25 FunctionalTesting
+10 TestDrivenDevelopment
+15 BehaviorDrivenDevelopment
+
+30 RapidApplicationDevelopment
+
+
+
+### Case Tools
+40 git
+25 mercurial
+
+
+### Domains
+40 Defense
+30 Medical
+30 DistributedSystems
+30 Integration
+
+
+
+### Databases
+15 MySql
+15 PostgreSQL
+15 SqlServer
+
+
+### Other Things
+15 AmazonEC2
+5 Nmap
+5 Metasploit
+15 XMPP
+5 Wireshark
+5 zsh
+
+
+### Misc
+10 SOA
+10 REST
+10 Architecture
+15 AJAX
+25 Middleware
+
+
+### Current Interests
+20 DevOps
+20 ConfigurationManagement
+5 Arduino
+15 ComputerGraphics
+5 Kinect
+20 GameDev
+
+
+
+
+
+
