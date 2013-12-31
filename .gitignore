@@ -1,3 +1,6 @@
+tmp/
+.idea
+*.iml
 *.acn
 *.acr
 *.alg

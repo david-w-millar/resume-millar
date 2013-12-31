@@ -1,4 +1,4 @@
 resume-millar
 =============
 
-latex resume
+Latex resume. Needs a lot of work.
