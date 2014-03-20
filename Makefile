@@ -21,7 +21,7 @@ export BIBINPUTS:=.:$(HOME)/latex/bibtex:$(BIBINPUTS)
 # This makefile performs the following steps:
 # 1) Run latex once.
 #    If there are no errors, none of the LaTeX output is printed to the
-#    screen.  If there is an error, all of the normal LaTeX output is 
+#    screen.  If there is an error, all of the normal LaTeX output is
 #    printed and Make exits with an error.
 #
 # 2) If there are undefined citations, run BibTeX.  If an .idx file
@@ -31,7 +31,7 @@ export BIBINPUTS:=.:$(HOME)/latex/bibtex:$(BIBINPUTS)
 #
 # 3) Run LaTeX repeatedly until there are no undefined
 #    references/citations or labels that may have changed.  Fail if
-#    LaTeX needs to be run more than MAX_PASSES.  
+#    LaTeX needs to be run more than MAX_PASSES.
 #
 #    - If any run of LaTeX produces an error, all of the LaTeX output
 #      is printed to the screen and the makefile exits with an error.
@@ -241,7 +241,7 @@ clean-inter-srcfile:
 clean: clean-intermediate
 	rm -rf tmp *~
 	# Millar
-	rm resume.dvi resume.pdf resume.ps
+	rm millar.dvi millar.ps
 
 # Remove all pdf/ps/dvi files created by us
 clobber: clean

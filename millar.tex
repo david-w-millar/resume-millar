@@ -1,0 +1,205 @@
+% See the `README.md` file for more info.
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,margin=0.75in]{geometry}
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+\usepackage{resume}
+
+
+\begin{document}
+\sloppy
+
+\maintitle{David W Millar}{}{Last update on \today}
+
+\nobreakvspace{0.3em}  % add some page break averse vertical spacing
+\noindent\href{mailto:david.w.millar.at.gmail.com}{david.w.millar\mbox{}@\mbox{}gmail.com}\hspace{1.7mm}\sbull
+610.304.8828
+\sbull
+\href{http://www.github.com/david-w-millar}{github.com/david-w-millar}\sbull
+\href{http://www.linkedin.com/in/davidwmillar}{linkedin.com/in/davidwmillar}
+\\
+140 Levering Street, Philadelphia\thinspace {\large \sc pa},\thinspace 19127
+
+% hr with some vertical spacing before and after
+\spacedhrule{0.9em}{-0.4em}
+
+
+% a root section title
+\roottitle{Summary}
+\vspace{-1.3em}  % some vertical spacing
+\begin{multicols}{2}  % open a multicolumn environment
+  \emph{
+    Well rounded, pragmatic software craftsman with experience ranging from small startups and research groups, to large enterprises including Comcast and \acr{IBM}.
+    Passionate about delivering high-quality software that is a pleasure to work with.
+  }
+
+Open source enthusiast, and active member of the \emph{Groovy} community.
+Contributor to the \emph{Spock} specification and testing framework, and currently serving as technical reviewer for the upcoming second edition of the book \emph{Groovy for Domain-Specific Languages}.
+
+I thrive in an environment where I can work with cross-functional teams, and where coworkers are eager to learn and share.
+
+
+\end{multicols}
+
+
+\spacedhrule{0em}{-0.4em}
+
+\roottitle{Experience}
+
+% IBM Kenexa Enterprise Team
+\headedsection  % sets the header for the section and includes any subsections
+{\href{http://http://www.kenexa.com/}{IBM Smarter Workforce (Formerly Kenexa Inc.)}}
+  {\textsc{Wayne, Pennsylvania}} {%
+  \headedsubsection
+    {Senior Software Engineer, IBM Kenexa Enterprise Team}
+    {September 2012 -- present}
+    {\bodytext{
+        This team was chartered to develop core enterprise infrastructure and to set the way forward for the company's various talent management offerings.
+        Developed a flexible multi-tenant \acr{SSO}, correspondence, and client/user/subscription management solution, implemented as a set of RESTful services that combined OAuth, \acr{SAML}, and \acr{IBM}'s directory integration platform.
+        \\\\
+        As the resident DevOps evangelist, I helped the hosting team write Puppet manifests to automate infrastructure deployments, used Vagrant, Veewee, Virtualbox, and Puppet to provide portable development environments for developers.
+        Worked with the \acr{SCM} group on taking steps towards Continuous Deployment by setting up a \acr{CD} pipeline in Jenkins, and helping with deployment scripts.
+        Worked very closely with \acr{QA} and other development teams, mentoring them on the Groovy language, the Spock testing framework, \acr{BDD} with Cucumber, and functional web testing with Geb and Selenium Grid; the testing stack that the company ultimately adopted.
+        Worked with the \acr{DBA}s to reduce ad-hoc chaos by introducing and adopting database migration tools (Liquibase).
+    }}
+}
+
+% MDconnectME Inc
+\headedsection  % sets the header for a subsection and contains usually body text
+{\href{http://mdconnectme.com/}{MDconnectME Inc (Startup)}}
+  {\textsc{Philadelphia, \acr{PA}}} {%
+  \headedsubsection
+    {Software Engineer (Contractor)}
+    {December 2011 -- March 2012} \
+  \headedsubsection
+    {Senior Software Engineer}
+    {March 2012 -- July 2012}
+    {\bodytext{
+      Worked in a senior capacity on planning, design, requirements and maintaining infrastructure from the ground up for the \emph{MDconnectME} web application,
+      which provides near real-time updates to families and friends during medical operations.
+      The application was featured in the New York Times, Fox Business, \acr{MSN} News, and various local media outlets.
+      Technologies included \acr{AWS, apache httpd and friends, }\acr{JEE}, Spring, Hibernate, \acr{JSP}, jQuery, Modernizr, and similar frameworks.
+      Developed and maintained back-end messaging systems and infrastructure using Amazon \acr{EC2} and Twillio for \acr{SMS} and e-mail, and was lead on security.
+    }}
+}
+
+\headedsection
+  {\href{http://www.yellowbook.com/}{Yellowbook Inc}}
+  {\textsc{King of Prussia, \acr{PA}}} {%
+  \headedsubsection
+    {Software Engineer}
+    {June 2011 -- March 2012}
+    {\bodytext{
+      Developed and maintained software systems to manage Yellowbook's repository of digital business listings, advertisements, and related artifacts.
+      Introduced and led the adoption of Behavior-Driven Development and testing tools, including Mockito and JBehave, which ultimately allowed the business analysts to write tests.
+      Ported a set of \acr{ETL} applications from C\# to Java to manage data feeds to third parties, including Google, Citygrid, and TomTom.
+    }}
+}
+
+\headedsection
+  {\href{http://drexel.edu/}{Drexel University, ACIN Center}}
+  {\textsc{Camden, \acr{NJ}}} {%
+  \headedsubsection
+    {Research Engineer}
+    {November 2008 -- April 2011}
+    {\bodytext{
+      Managed and oversaw the completion of several projects under contract with the \acr{DoD} and assisted in writing proposals to acquire multi-million dollar contracts.
+      Researched, developed, and analyzed reliable group messaging systems for resource constrained networks using best of breed network emulation tools.
+      Research areas included proactive vs reactive and hybrid service discovery approaches, and translating client/server software to use a peer-to-peer paradigm.
+      Participated in live Command, Control, Communications, Computers, Intelligence, Surveillance and Reconnaissance (C\textsuperscript{4}ISR) exercises with domestic, French, and German forces.
+    }}
+}
+
+\headedsection
+  {\href{http://www.comcast.com/}{Comcast}}
+  {\textsc{Mount Laurel, \acr{NJ}}} {%
+  \headedsubsection
+    {Software Engineer}
+    {September 2003 -- November 2008}
+    {\bodytext{
+      Developed rudimentary reporting, visualization, and integration layer for \acr{IP} address utilization and management.
+      Used for daily operations and to automate \acr{ARIN} report generation to satisfy requirements for acquiring more address space (Perl, MySql, Php, \acr{JMS}, \acr{JEE}, Spring, \acr{SOAP}, Struts, Velocity).
+      Worked with consultants to develop and optimize a more industrial-strength \acr{IP} Address Management System that hosted information for Comcast's national infrastructure and millions of customers.
+      Developed a software platform to import network addressing information from acquisitions.
+    }}
+}
+
+\vspace{0.5em}
+\spacedhrule{0.5em}{-0.4em}
+
+\roottitle{Education}
+\headedsection
+  {\href{http://www.drexel.edu}{Drexel University}}
+  {\textsc{Philadelphia, \acr{PA}}} {%
+  \headedsubsection
+    {Bachelor degree in Computer Science}
+    {2002 -- 2007}
+    {\bodytext{Concentrations: Data Structures and Algorithms and Operating Systems}}
+}
+\spacedhrule{0.5em}{-0.4em}
+
+
+\roottitle{Publications}
+
+\vspace{0.3em}
+
+\noindent ``Net-Centric Information and Knowledge Management and Dissemination for Data-to-Decision C2 Applications using Intelligent Agents and Service-Oriented Architectures.'' I. Mayk, W. Regli, D. Nguyen, et al.,  Proceedings of the 2011 Military Communications Conference, Baltimore, MD, 2011. \\
+
+\noindent ``An Evaluation of Serverless Group Chat'' Robert N. Lass, Duc N. Nguyen,  Willam C. Regli. Military Communications. 7 November -- 10 November 2011, Baltimore, MD \\
+
+\noindent ``Client/Server Messaging Protocols in Serverless Environments.'' Justin Dean, Andrew Harrison, Robert N. Lass, Joe Macker, David Millar and Ian Taylor. Journal of Network and Computer Applications, 2011 \\
+
+\noindent ``XO: XMPP Overlay Service for Distributed Chat.'' Robert N. Lass, Joseph P. Macker, David Millar, Willam C. Regli, Ian Taylor. Military Communications. 31 October -- 3 November 2010, San Jose, CA \\
+
+\noindent ``GUMP: Adapting Client/Server Messaging Protocols into Peer-to-Peer Serverless Environments.'' Robert N. Lass, Joe Macker, David Millar and Ian Taylor Bio-Inspired Algorithms for Distributed Systems 2010 , 7--11 June 2010, Washington, D.C. \\
+
+\vspace{0.5em}
+\spacedhrule{0.5em}{-0.4em}
+
+
+
+\roottitle{Professional Organizations}
+\noindent\bull{\it Association for Computing Machinery (\acr{ACM})}, Member since 2012 \\
+\noindent\bull{\it Electronic Frontier Foundation (\acr{EFF})}, Gold Member since 2011 \\
+\vspace{0.5em}
+\spacedhrule{0.5em}{-0.4em}
+
+
+\roottitle{Awards and Honors}
+\bull{\it Alan Berman Research Publication Award}, Naval Research Labs, 2012
+
+\noindent\bull{\it Upsilon Pi Epsilon}, International Honor Society for the Computing and Information Disciplines
+\vspace{0.5em}
+\spacedhrule{0.5em}{-0.4em}
+
+
+\roottitle{Skills}
+\inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
+  {Technical expertise:}
+  {
+    Agile methodologies (scrum, kanban).
+    \acr{(A)TDD} and \acr{BDD}.
+    Continuous Integration and Deployment (Jenkins, capistrano, etc).
+    Refactoring.
+    Distributed systems, \acr{SOA}, integration, RESTful architecture.
+    Relational databases, \acr{ORM} tools, solid understanding of the NoSql ecosystem.
+    Java, Groovy, Ruby, various scripting, markup, and templating laguages.  Capable of learning new languages.
+    Solid understanding of web technologies (HTML, JavaScript, CSS, LESS, AngularJS, Grails, Rails, Dropwizard).
+    Vim. Linux administration, infrastructure automation and virtualization (Puppet, Vagrant, Veewee, Virtualbox, Docker).
+    Build and test automation (Gradle, Geb, Spock, Cucumber, Selenium and friends).
+  }
+
+\spacedhrule{1.6em}{-0.4em}
+
+\roottitle{Current Interests}
+\inlineheadsection
+  {In no particular order:}
+  {
+    General hackery, the recent explosion of DevOps and infrastructure automation tools, domain-specific languages and language construction in general,
+    emergent design and architecture in software, project scaffolding tools, tabletop games, live music.  Currently getting familiar with Scala and Python.
+  }
+
+
+\end{document}
+
