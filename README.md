@@ -2,6 +2,8 @@
 
 My fork of @cies [ecxellent latex resume](https://www.github.com/cies/resume).
 
+You can view it [here](https://github.com/david-w-millar/resume-millar/blob/master/millar.pdf?raw=true).
+
 Checkout the [original repo](https://www.github.com/cies/resume) for more information and detailed build instructions.
 
 ## Attributions and Credit
