@@ -15,3 +15,7 @@ Much thanks to [Cies Breijs](https://github.com/cies) and his [original work](ht
 `resume.sty` file is [MIT](http://en.wikipedia.org/wiki/MIT_License) licensed.
 
 The text of my resume in the file is [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/) licensed.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/david-w-millar/resume-millar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
