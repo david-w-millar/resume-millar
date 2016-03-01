@@ -264,3 +264,8 @@ clobber: clean
 	@echo "clean    Removes unnecessary files."
 	@echo "clobber  Removes unnecessary files (include PDFs, PS, and DVI files)."
 
+
+# Check Spelling
+spell:
+	aspell --lang=en --mode=tex check millar.tex
+
