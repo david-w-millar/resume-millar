@@ -1,6 +1,6 @@
 # Resume
 
-My fork of @cies [ecxellent latex resume](https://www.github.com/cies/resume).
+My fork of @cies [excellent latex resume](https://www.github.com/cies/resume).
 
 You can view it [here](https://github.com/david-w-millar/resume-millar/blob/master/millar.pdf?raw=true).
 
